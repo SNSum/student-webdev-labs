@@ -10,7 +10,6 @@ nav .list-item > a {
   Specificity = (0,1,2)
 */
 
-
 #main::first-letter {
   color: var(--purple);
 }
@@ -31,7 +30,6 @@ input[type] {
   Specificity = (0,1,1)
  */
 
-
 section .main::first-line {
   color: var(--purple);
 }
@@ -42,7 +40,7 @@ section .main::first-line {
   Specificity = (0,1,2)
  */
 
-nav ul.menu li#first a:not([class='visited']) {
+nav ul.menu li#first a:not([class="visited"]) {
   color: var(--purple);
 }
 
@@ -53,7 +51,6 @@ nav ul.menu li#first a:not([class='visited']) {
   Attribute selectors: 1 (:not([class='visited']))
   Specificity = (1,2,4)
 */
-
 
 div ol li ul li ol li ul li a {
   color: var(--purple);
